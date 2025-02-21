@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple E-commerce Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="grocery-store.png" >
+</head>
+<body>
+
+    <header>
+        <h1>Simple E-commerce Store</h1>
+        <nav>
+            <button onclick="viewCart()">View Cart</button>
+        </nav>
+    </header>
+    <main>
+        <section id="products">
+            
+        </section>
+        <section id="cart" style="display: none;">
+            <h2>Your Cart</h2>
+            <div id="cart-items"></div>
+            <p id="cart-total"></p>
+            <button onclick="hideCart()">Close Cart</button>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Simple E-commerce Store</p>
+        <div class="creator-info">
+            <p>Made by Arjhun, Student at PSNA College of Engineering and Technology, CSE Department.</p>
+            <p>Connect with me: <a href="https://www.linkedin.com/in/arjhun-o-06ab8b334?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BSNL7SA5zRQSHifjt4IGF9A%3D%3D" target="_blank">LinkedIn</a></p>
+            <p><strong>How it works:</strong> This e-commerce store displays products. Click "Add to Cart" to add items to your cart. View your cart by clicking "View Cart".  From there, you can review the items and total cost.</p>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
